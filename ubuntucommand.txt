@@ -1,2 +1,9 @@
-For speed up ubuntu:
+# Open terminal
+Ctrl + Alt + T
+
+# For speed up ubuntu:
 https://www.linuxbabe.com/ubuntu/4-tips-speed-up-ubuntu-16-04
+
+# Power off and reboot
+sudo poweroff
+sudo reboot

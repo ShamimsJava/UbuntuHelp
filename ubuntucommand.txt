@@ -7,3 +7,16 @@ https://www.linuxbabe.com/ubuntu/4-tips-speed-up-ubuntu-16-04
 # Power off and reboot
 sudo poweroff
 sudo reboot
+
+
+How to Move the Unity Desktop’s Launcher to the Bottom of Your Screen on Ubuntu 16.04
+~$ gsettings set com.canonical.Unity.Launcher launcher-position Bottom
+~$ gsettings set com.canonical.Unity.Launcher launcher-position Left
+
+
+#####Important########
+To set Oracle JDK8 as default, install the "oracle-java8-set-default" package.
+E.g.: sudo apt install oracle-java8-set-default
+On Ubuntu systems, oracle-java8-set-default is most probably installed
+automatically with this package.
+######################

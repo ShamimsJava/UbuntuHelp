@@ -20,3 +20,8 @@ E.g.: sudo apt install oracle-java8-set-default
 On Ubuntu systems, oracle-java8-set-default is most probably installed
 automatically with this package.
 ######################
+
+####Install UGet downloader
+sudo add-apt-repository ppa:plushuang-tw/uget-stable
+sudo apt-get update
+sudo apt-get install uget

@@ -1,15 +1,15 @@
-# Open terminal
+########### Open terminal
 Ctrl + Alt + T
 
-# For speed up ubuntu:
+########### For speed up ubuntu:
 https://www.linuxbabe.com/ubuntu/4-tips-speed-up-ubuntu-16-04
 
-# Power off and reboot
+########## Power off and reboot
 sudo poweroff
 sudo reboot
 
 
-How to Move the Unity Desktop’s Launcher to the Bottom of Your Screen on Ubuntu 16.04
+#########How to Move the Unity Desktop’s Launcher to the Bottom of Your Screen on Ubuntu 16.04
 ~$ gsettings set com.canonical.Unity.Launcher launcher-position Bottom
 ~$ gsettings set com.canonical.Unity.Launcher launcher-position Left
 
@@ -32,7 +32,7 @@ Install Avro in ubuntu 16.04
 
 
 
-For Ubuntu 16.04 (32/64-bit)
+##########For Ubuntu 16.04 (32/64-bit)
 
 Please run these commands from the terminal. Make sure you are in the right directory.
 
@@ -57,5 +57,7 @@ After this a "reboot" is required. Now go to System Settings -> Keyboard -> Text
 ############## Remove locked file folder or file
 
 sudo rm -rf file/folderName
+
+
 
 

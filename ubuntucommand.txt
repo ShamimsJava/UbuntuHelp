@@ -25,3 +25,37 @@ automatically with this package.
 sudo add-apt-repository ppa:plushuang-tw/uget-stable
 sudo apt-get update
 sudo apt-get install uget
+
+
+##################
+Install Avro in ubuntu 16.04
+
+
+
+For Ubuntu 16.04 (32/64-bit)
+
+Please run these commands from the terminal. Make sure you are in the right directory.
+
+wget "https://github.com/maateen/avro/releases/download/v2.0/avro_2.0-1_all.deb"
+sudo dpkg -i avro_2.0-1_all.deb
+
+If you get any dependency errors, then also run the following command:
+
+sudo apt-get install -f
+
+I hope, all is well now and the installation has been finished.
+
+Go to System Settings -> Language Support from Unity Launcher Look at the Keyboard input method system Select IBus and close the window.
+
+I believe that you need to restart IBus to make everything work fine. Try the following command:
+
+ibus restart
+
+After this a "reboot" is required. Now go to System Settings -> Keyboard -> Text Entry. Search and add Avro Phonetic as input source. That's all.
+
+
+############## Remove locked file folder or file
+
+sudo rm -rf file/folderName
+
+

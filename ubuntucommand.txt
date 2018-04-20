@@ -58,6 +58,21 @@ After this a "reboot" is required. Now go to System Settings -> Keyboard -> Text
 
 sudo rm -rf file/folderName
 
+############# How to install Netbeans from .sh file
+
+
+    navigate to Downloads folder:
+
+    cd ~/Downloads
+
+    make the downloaded script executable:
+
+    chmod +x netbeans-8.2-javase-linux.sh
+
+    finally run the script:
+
+    ./netbeans-8.2-javase-linux.sh
+
 
 
 

@@ -99,6 +99,8 @@ Usually most linux systems source /etc/environment by default. If your system do
 
 source /etc/environment
 
+### Remove thunderbird messages icon
+sudo apt-get remove indicator-messages
 
 
 
